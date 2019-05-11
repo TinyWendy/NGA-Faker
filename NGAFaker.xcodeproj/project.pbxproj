@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8F823DF52286C9D0000FD7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823DF42286C9D0000FD7AA /* AppDelegate.swift */; };
-		8F823DF72286C9D0000FD7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823DF62286C9D0000FD7AA /* ViewController.swift */; };
 		8F823DFA2286C9D0000FD7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F823DF82286C9D0000FD7AA /* Main.storyboard */; };
 		8F823DFD2286C9D0000FD7AA /* NGAFaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F823DFB2286C9D0000FD7AA /* NGAFaker.xcdatamodeld */; };
 		8F823DFF2286C9D2000FD7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F823DFE2286C9D2000FD7AA /* Assets.xcassets */; };
@@ -16,12 +15,13 @@
 		8F823E0A2286CB72000FD7AA /* postTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823E092286CB72000FD7AA /* postTableViewCell.swift */; };
 		8F823E0C2286CF12000FD7AA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F823E0B2286CF12000FD7AA /* README.md */; };
 		8F823E0E22870FA6000FD7AA /* NGAPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823E0D22870FA6000FD7AA /* NGAPost.swift */; };
+		8F823E1222871655000FD7AA /* postsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823E1122871655000FD7AA /* postsTableViewController.swift */; };
+		8F823E14228721B0000FD7AA /* detailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823E13228721B0000FD7AA /* detailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F823DF12286C9D0000FD7AA /* NGAFaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGAFaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F823DF42286C9D0000FD7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F823DF62286C9D0000FD7AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F823DF92286C9D0000FD7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F823DFC2286C9D0000FD7AA /* NGAFaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NGAFaker.xcdatamodel; sourceTree = "<group>"; };
 		8F823DFE2286C9D2000FD7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +30,8 @@
 		8F823E092286CB72000FD7AA /* postTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postTableViewCell.swift; sourceTree = "<group>"; };
 		8F823E0B2286CF12000FD7AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		8F823E0D22870FA6000FD7AA /* NGAPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGAPost.swift; sourceTree = "<group>"; };
+		8F823E1122871655000FD7AA /* postsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postsTableViewController.swift; sourceTree = "<group>"; };
+		8F823E13228721B0000FD7AA /* detailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				8F823DF42286C9D0000FD7AA /* AppDelegate.swift */,
-				8F823DF62286C9D0000FD7AA /* ViewController.swift */,
 				8F823E0D22870FA6000FD7AA /* NGAPost.swift */,
 				8F823DF82286C9D0000FD7AA /* Main.storyboard */,
 				8F823E092286CB72000FD7AA /* postTableViewCell.swift */,
+				8F823E1122871655000FD7AA /* postsTableViewController.swift */,
+				8F823E13228721B0000FD7AA /* detailsTableViewController.swift */,
 				8F823DFE2286C9D2000FD7AA /* Assets.xcassets */,
 				8F823E002286C9D2000FD7AA /* LaunchScreen.storyboard */,
 				8F823E032286C9D2000FD7AA /* Info.plist */,
@@ -148,9 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F823E14228721B0000FD7AA /* detailsTableViewController.swift in Sources */,
 				8F823DFD2286C9D0000FD7AA /* NGAFaker.xcdatamodeld in Sources */,
+				8F823E1222871655000FD7AA /* postsTableViewController.swift in Sources */,
 				8F823E0E22870FA6000FD7AA /* NGAPost.swift in Sources */,
-				8F823DF72286C9D0000FD7AA /* ViewController.swift in Sources */,
 				8F823DF52286C9D0000FD7AA /* AppDelegate.swift in Sources */,
 				8F823E0A2286CB72000FD7AA /* postTableViewCell.swift in Sources */,
 			);

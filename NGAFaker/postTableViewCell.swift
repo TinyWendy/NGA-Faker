@@ -8,8 +8,19 @@
 
 import UIKit
 
+protocol PostSelectionDelegate: class {
+    func select(url: URL, topic: String)
+}
+
 class postTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var postTopicField: UILabel!
+    @IBOutlet weak var authorField: UILabel!
+    @IBOutlet weak var repliesField: UILabel!
+    
+    var postURL: URL?
+    var delegate: PostSelectionDelegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,6 +30,9 @@ class postTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+        if selected {
+            delegate?.select(url: postURL!, topic: self.postTopicField.text!)
+        }
     }
 
 }
