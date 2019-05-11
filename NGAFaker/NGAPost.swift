@@ -10,11 +10,13 @@ import Foundation
 
 struct NGAPost: Codable {
     let url: URL
+    let author: String
     let topic: String
-    let replies: Int
-
-    init(url: URL, topic: String, replies: Int) {
+    let replies: String
+    
+    init(url: URL, author: String, topic: String, replies: String) {
         self.url = url
+        self.author = author
         self.topic = topic
         self.replies = replies
     }
