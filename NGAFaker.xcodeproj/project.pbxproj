@@ -15,6 +15,7 @@
 		8F823E022286C9D2000FD7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F823E002286C9D2000FD7AA /* LaunchScreen.storyboard */; };
 		8F823E0A2286CB72000FD7AA /* postTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823E092286CB72000FD7AA /* postTableViewCell.swift */; };
 		8F823E0C2286CF12000FD7AA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F823E0B2286CF12000FD7AA /* README.md */; };
+		8F823E0E22870FA6000FD7AA /* NGAPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F823E0D22870FA6000FD7AA /* NGAPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8F823E032286C9D2000FD7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F823E092286CB72000FD7AA /* postTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postTableViewCell.swift; sourceTree = "<group>"; };
 		8F823E0B2286CF12000FD7AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		8F823E0D22870FA6000FD7AA /* NGAPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGAPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				8F823DF42286C9D0000FD7AA /* AppDelegate.swift */,
 				8F823DF62286C9D0000FD7AA /* ViewController.swift */,
+				8F823E0D22870FA6000FD7AA /* NGAPost.swift */,
 				8F823DF82286C9D0000FD7AA /* Main.storyboard */,
 				8F823E092286CB72000FD7AA /* postTableViewCell.swift */,
 				8F823DFE2286C9D2000FD7AA /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F823DFD2286C9D0000FD7AA /* NGAFaker.xcdatamodeld in Sources */,
+				8F823E0E22870FA6000FD7AA /* NGAPost.swift in Sources */,
 				8F823DF72286C9D0000FD7AA /* ViewController.swift in Sources */,
 				8F823DF52286C9D0000FD7AA /* AppDelegate.swift in Sources */,
 				8F823E0A2286CB72000FD7AA /* postTableViewCell.swift in Sources */,
