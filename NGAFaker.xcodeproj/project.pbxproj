@@ -65,11 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				8F823DF42286C9D0000FD7AA /* AppDelegate.swift */,
-				8F823E0D22870FA6000FD7AA /* NGAPost.swift */,
+				8F823E192287B411000FD7AA /* Models */,
 				8F823DF82286C9D0000FD7AA /* Main.storyboard */,
-				8F823E092286CB72000FD7AA /* postTableViewCell.swift */,
-				8F823E1122871655000FD7AA /* postsTableViewController.swift */,
-				8F823E13228721B0000FD7AA /* detailsTableViewController.swift */,
+				8F823E182287B402000FD7AA /* Posts */,
 				8F823DFE2286C9D2000FD7AA /* Assets.xcassets */,
 				8F823E002286C9D2000FD7AA /* LaunchScreen.storyboard */,
 				8F823E032286C9D2000FD7AA /* Info.plist */,
@@ -77,6 +75,24 @@
 				8F823E0B2286CF12000FD7AA /* README.md */,
 			);
 			path = NGAFaker;
+			sourceTree = "<group>";
+		};
+		8F823E182287B402000FD7AA /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				8F823E092286CB72000FD7AA /* postTableViewCell.swift */,
+				8F823E1122871655000FD7AA /* postsTableViewController.swift */,
+				8F823E13228721B0000FD7AA /* detailsTableViewController.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		8F823E192287B411000FD7AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F823E0D22870FA6000FD7AA /* NGAPost.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
